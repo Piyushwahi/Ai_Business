@@ -1,22 +1,31 @@
-//for backend
-cd backend                                                                                                                                                                                                                    
-env\Scripts\activate                                                                                                          
- npm start
+# Project Setup Guide
 
-//for ai-service
-cd ai-service 
-venv\Scripts\activate 
-python app.py 
+Follow the steps below to run each part of the project.
+
+---
+
+## 1. Backend
+cd backend
+env\Scripts\activate
+npm start
+
+2. AI Service
+cd ai-service
+venv\Scripts\activate
+python app.py
 
 
-//for frontend
+
+3 frontend
 deactivate
-cd frontend   
- npm start
+cd frontend
+npm start
 
 
- //for facerecognition model
- venv/Scripts/Activate
- python config.py 
- python run.py
 
+
+1 Face Recognition Model
+
+venv\Scripts\activate
+python config.py
+python run.py
